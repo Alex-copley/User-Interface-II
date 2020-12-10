@@ -1,1 +1,80 @@
-/* Add CSS styling here */
+body 
+{
+    font-family: 'Nerko One', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header 
+{
+    background: lightgrey;
+    padding: 1%;
+    border-bottom: 3px solid black;
+    margin-top: -3%;
+}
+
+.name 
+{
+    font-family: 'Nerko One', cursive;
+    margin-left: 3%;
+    font-size: 300%;
+}
+
+nav
+{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 200px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    
+}
+a:hover { background-color: black; color: white; }
+
+nav a 
+{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 3%;
+    background: white;
+}
+
+.home
+{
+
+}
+
+.about
+{
+
+}
+
+.contact
+{
+
+}
+
+.project
+{
+
+}
+
+main 
+{
+    display: flex;
+    border: 1px solid black;
+}
+
+div > img 
+{
+    margin: 2%;
+    border: 2px solid black;
+}
+
+.img1
+{
+    height: 400px;
+    
+}
