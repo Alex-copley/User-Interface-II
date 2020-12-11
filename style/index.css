@@ -1,1 +1,138 @@
-/* Add CSS styling here */
+body 
+{
+    font-family: 'Nerko One', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header 
+{
+    background: lightgrey;
+    padding: 1%;
+    border-bottom: 3px solid black;
+    margin-top: -3%;
+}
+
+.name 
+{
+    font-family: 'Nerko One', cursive;
+    margin-left: 3%;
+    font-size: 300%;
+}
+
+nav
+{
+    display: flex;
+    width: 200px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    
+}
+
+nav a:hover { background-color: black; color: white; }
+
+nav a 
+{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 3%;
+    background: white;
+}
+
+.home
+{
+
+}
+
+.about
+{
+
+}
+
+.contact
+{
+
+}
+
+.projects
+{
+
+}
+
+main 
+{
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+div > img 
+{
+    margin: 2%;
+    border: 2px solid black;
+}
+
+.img1
+{
+    height: 300px;
+    width: 400px;
+}
+
+.bodytext
+{
+    margin-left: 100px;
+}
+
+.bodytext nav  a.projects
+{
+    padding: 2px 20px;
+    margin-left: -10px;
+}
+
+section p 
+{
+    margin-right: 20px;
+}
+
+.bottomimgs
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+
+span
+{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.bottomimgs a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.bottomimgs a > img
+{
+    border: 1px solid black;
+}
+
+footer
+{
+    background: lightgrey;
+    text-align: center;
+}
+
+.fab
+{
+    font-size: 4em;
+}
+
+footer div a
+{
+    text-decoration: none;
+}
