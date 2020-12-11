@@ -24,13 +24,13 @@ header
 nav
 {
     display: flex;
-    /* border: 1px solid black; */
     width: 200px;
     margin-left: 5%;
     margin-bottom: 2%;
     
 }
-a:hover { background-color: black; color: white; }
+
+nav a:hover { background-color: black; color: white; }
 
 nav a 
 {
@@ -56,7 +56,7 @@ nav a
 
 }
 
-.project
+.projects
 {
 
 }
@@ -64,7 +64,7 @@ nav a
 main 
 {
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 div > img 
@@ -75,6 +75,64 @@ div > img
 
 .img1
 {
-    height: 400px;
-    
+    height: 300px;
+    width: 400px;
+}
+
+.bodytext
+{
+    margin-left: 100px;
+}
+
+.bodytext nav  a.projects
+{
+    padding: 2px 20px;
+    margin-left: -10px;
+}
+
+section p 
+{
+    margin-right: 20px;
+}
+
+.bottomimgs
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+
+span
+{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.bottomimgs a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.bottomimgs a > img
+{
+    border: 1px solid black;
+}
+
+footer
+{
+    background: lightgrey;
+    text-align: center;
+}
+
+.fab
+{
+    font-size: 4em;
+}
+
+footer div a
+{
+    text-decoration: none;
 }
